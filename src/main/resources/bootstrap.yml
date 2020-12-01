@@ -1,0 +1,15 @@
+aws:
+    paramstore:
+        prefix: /config
+        name: hub
+        enabled: true
+        profile-separator: _
+        default-context: hub
+        fail-fast: true
+
+cloud:
+    aws:
+        region:
+            static: ap-southeast-1
+        stack:
+            auto: false

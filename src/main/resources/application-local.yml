@@ -1,0 +1,6 @@
+## list properties
+categories.types: zone001,zone002,zone003
+
+management.endpoints.web.exposure.include: '*'
+
+db.username: test value
